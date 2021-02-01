@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PokemonList from "./PokemonList";
+import axios from "axios";
 
 function App() {
   return (
